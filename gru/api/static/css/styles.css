@@ -6,15 +6,14 @@ h1 {
 
 body {
     font-family: "Kiwi Maru", serif;
-    background-color: #feffde;
+    
 }
 
 ol {
     max-width: 500px;
     border-style: solid;
     border-radius: 1%;
-    margin-left: 200px;
-    margin-top: 50px;
+    
 }
 
 /* table {
@@ -40,3 +39,4 @@ footer{
     width: 100%;
     text-align: center;
 }
+
