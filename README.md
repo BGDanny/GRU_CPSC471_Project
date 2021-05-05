@@ -1,5 +1,5 @@
 # Get Ready for Uni
-"Get Ready for Uni" is an application that assists students who desire to pursue post-secondary education in North America with a full collection of university information. It also provides RESTful API services for developers to add, modify and delete relevant data.
+"Get Ready for Uni" is an application that assists students who desire to pursue post-secondary education in North America with a full collection of university information. It also provides RESTful API services for developers to add, update and delete relevant data via HTTP requests.
 
 ## Built with
 - [Python 3.9.2](https://www.python.org/)
