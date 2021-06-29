@@ -14,8 +14,8 @@
 <p>Please login to see this page.</p>
 {% endif %}
 {% endif %}
-
-<form method="post" action="{% url 'login' %}">
+<h1>Welcome Back to GRU</h1>
+<form method="post" action="{% url 'login' %}" style="display:flex;justify-content:center;margin-top:10%">
     {% csrf_token %}
     <table>
         <tr>
@@ -29,9 +29,10 @@
     </table>
     <input type="submit" value="login" />
     <input type="hidden" name="next" value="{{ next }}" />
+
 </form>
 
 {# Assumes you setup the password_reset view in your URLconf #}
-<p><a href="{% url 'password_reset' %}">Lost password?</a></p>
+<p style="text-align: center;"><a href="{% url 'password_reset' %}">Lost password?</a></p>
 
 {% endblock %}

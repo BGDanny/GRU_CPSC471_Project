@@ -2,17 +2,20 @@
 {% block content %}
 <div style="text-align: center">
     <h1>Choose one of the following options</h1>
-    <button type="button" class="btn btn-secondary btn-sm" style="margin-top: 10px" id="uni">
+    <button type="button" class="btn btn-primary btn-lg" style="margin-top: 20px" id="uni">
         Browse Universities
     </button>
-    <button type="button" class="btn btn-secondary btn-sm" style="margin-top: 10px" id="rank">
+    <br>
+    <button type="button" class="btn btn-warning btn-lg" style="margin-top: 20px" id="rank">
         Browse Rankings
     </button>
-    <button type="button" class="btn btn-secondary btn-sm" style="margin-top: 10px" id="prof">
+    <br>
+    <button type="button" class="btn btn-success btn-lg" style="margin-top: 20px" id="prof">
         Browse Professors
     </button>
+    <br>
     {% if user.is_authenticated %}
-    <button type="button" class="btn btn-secondary btn-sm" style="margin-top: 10px" id="view">
+    <button type="button" class="btn btn-dark btn-lg" style="margin-top: 20px" id="view">
         View Account
     </button>
     {% endif %}
